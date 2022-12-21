@@ -5,6 +5,8 @@ body{
     font-size:16px;
     line-height:1.6em;
     margin:0;
+    height: 100vh;
+    
 }
 a:hover{
     background-color: coral;
@@ -52,7 +54,7 @@ a:active{
 }
 
 #showcase{
-    background-image:url('../images/showcase.jpg');
+    background-image:url('./images/showcase.jpg');
     background-position:center right;
     min-height:300px;
     margin-bottom:30px;
@@ -87,7 +89,10 @@ a:active{
     color:#fff;
     text-align:center;
     padding:20px;
-    margin-top:40px;
+    margin-top:80px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 @media(max-width:600px){
