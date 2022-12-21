@@ -24,6 +24,11 @@ a:active{
     overflow:hidden;
 }
 
+.container img{
+    /* float: left; */
+    margin: 20px;
+    border-radius: 50%;
+}
 #main-header{
     background-color:coral;
     color:#fff;
@@ -99,5 +104,9 @@ a:active{
     #main{
         width:100%;
         float:none;
+        
+    }
+    .container img{
+        float:right;
     }
 }
